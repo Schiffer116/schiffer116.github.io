@@ -1,0 +1,31 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    background-color: hsl(234, 29%, 20%);
+}
+
+.grid-container {
+    background-color: white;
+    width: 60%;
+    border-radius: 25px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+form {
+    padding: 10%;
+}
+
+.illustration {
+    max-width: 90%;
+    display: inline;
+    margin: 5%;
+}
